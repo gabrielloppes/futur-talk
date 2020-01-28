@@ -1,0 +1,158 @@
+/* Importando Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+/* Resets de CSS */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito", Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Local */
+.local-bg {
+    background-color: orange;
+    color: white;
+}
+
+.local {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.local p {
+    margin: 0 10px 10px 10px;
+}
+
+/* Menu */
+
+.menu-bg {
+    background-color: tomato;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu-logo a {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+/* Sobre */
+
+.sobre {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info {
+    flex: 2 1 300px;
+    margin: 0 40px 0 0;
+    text-align: justify;
+}
+
+.sobre-info h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+    color: #FF6B06;
+}
+
+.sobre-info p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+}
+
+.sobre-img {
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+
+/* Convidados */
+
+.convidados {
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.convidados-header {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 0 0;
+}
+
+.convidados-item {
+    flex: 1 1 300px;
+    margin: 20px 10px;
+}
+
+.convidados-item h2 {
+    font-size: 2em;
+    color: #FF6B06;
+    margin-bottom: 20px;
+}
+
+.convidados-item p {
+    margin-top: 20px;
+}
+
+.convidados-item .social-media {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    list-style: none;
+}
+
+.convidados-item .social-media a {
+    color: #FF6B06;
+    padding: 0px 20px;
+}
