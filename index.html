@@ -1,163 +1,168 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="Vem aí o Futur Talks - Gerando conteúdo de qualidade para empresas e pessoas interessadas em Tecnologia.">
+    <meta name="keywords" content="Música, Tecnologia, Evento, Futuro, Conteúdo">
+  <meta name="author" content="Marcos Fonseca | Gabriel Paraizo">
+  <meta name="robots" content="index, follow">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Futur Talks</title>
 </head>
 <body>
-    <div id="container">
-    <!-- Inicio da barra de navegação -->
-        <nav class="navbar navbar-expand-sm bg-light">
-
-            <!-- Links -->
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Futurtalks</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Evento</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
-              </li>
-            </ul>
-        </nav>
-        <!-- fim da barra de navegação -->
-        <!-- Inicio do carousel -->
-          <div id="galeria" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#galeria" data-slide-to="0" class="active"></li>
-              <li data-target="#galeria" data-slide-to="1"></li>
-              <li data-target="#galeria" data-slide-to="2"></li>
-            </ul>
-
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/banner 1.jpg" alt="Los Angeles">
-              </div>
-              <div class="carousel-item">
-                <img src="images/banner 1.jpg" alt="Chicago">
-              </div>
-              <div class="carousel-item">
-                <img src="images/banner 1.jpg" alt="New York">
-              </div>
-            </div>
-          
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#galeria" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#galeria" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-          
-          </div>
-        <!-- Fim do carousel -->
-        <!-- Sobre -->  
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="https://via.placeholder.com/719x529" alt="">
-            </div>
-            <div class="col-sm-6">
-                <h2>Futur Talks</h2>
-                <p>A proposta do Futur Talks é gerar conteúdo de qualidade para empresas e pessoas interessadas em Tecnologia no Mercado da Música e também criadores de Podcasts.</p>
-                <p>A ideia é mostrar para as empresas a força do Podcast como forma para passar conteúdo e também até como monetizador. Além disso, é sempre importante saber quais são as últimas tecnologias existentes no mercado da música e como a sua empresa se encaixa no uso delas.</p>
-            </div>
+    <div class="local-bg">
+        <div class="local">
+            <p><a href="#mapa">Lambda3 - Av. Angélica, 2318 - Consolação, São Paulo - SP</a></p>
+            <p>Data: 30/01/2020</p>
+            <p>Horário: 18h30</p>
         </div>
-        <!-- Sobre -->  
-        <!-- Palestrantes -->
-        <h1>Convidados</h1>
-
-        <div class="row">
-                <div class="col-sm-3">
-                    <img src="https://via.placeholder.com/277x168" alt="">
-                    <caption>Lorem ipsum</caption>
-                </div>
-                <div class="col-sm-3">
-                    <img src="https://via.placeholder.com/277x168" alt="">
-                    <caption>Lorem ipsum</caption>
-                </div>
-                <div class="col-sm-3">
-                    <img src="https://via.placeholder.com/277x168" alt="">
-                    <caption>Lorem ipsum</caption>
-                </div>
-                <div class="col-sm-3">
-                    <img src="https://via.placeholder.com/277x168" alt="">
-                    <caption>Lorem ipsum</caption>
-                </div>
-            </div>
-        <!-- Botão comprar ingresso -->
-        <button>Compre o ingresso</button>
-        <!-- Botão comprar ingresso -->
-        <!-- Palestrantes -->
-        <!-- Sobre o evento -->
-        <div class="row bgblack" style="background-color: black;">
-            <div class="col-sm-6">
-                <h1>Evento</h1>
-                <p><strong>Palestrantes -</strong></p>
-                <p>Profissionais que atuam com o Podcast;</p>
-                <p>- Profissionais especializados em Tecnologia na Música;</p>
-                <p>Como será o evento?</p>
-                <p>Serão dois painéis, um sobre o Uso do Podcast por empresas e criadores de conteúdo e outro sobre as novas tecnologias no mercado da música. Nós vamos passar conteúdo de qualidade, para que os convidados consigam aprender algo ao final do evento.</p>
-            </div>
-            <div class="col-sm-6">
-                <img src="https://via.placeholder.com/710x586" alt="">
-            </div>
-        </div>
-        <!-- Sobre o evento -->
-        <!-- Localização -->
-        <h1>Local</h1>
-        <p>Prédio xxxxxx na Avenida Paulista, 5000, São Paulo - SP - CEP:132-5000</p>
-        <div class="row">
-            <div id="map">
-                <img src="images/map.png" alt="">
-            </div>
-        </div>
-        <!-- Localização -->
-        <!-- contato -->
-        <div class="row bgblack" id="form">
-            <img src="https://via.placeholder.com/370x293" alt="">
-            <h1>Contato</h1>
-            
-            <!-- Adicionar um parágrafo com uma mensagem de sucesso aqui. Manter a ID da div e do formulário -->
-            <!-- Adicionar ou manter os nomes dos input type-->
-
-            <div id="formhidden" style="display:none">
-              <p>Formulário enviado com sucesso</p>
-            </div>
-            <form action="mailto:vendas@futurtalk.com.br" id="contato" onsubmit="formSubmit()">
-                <input type="text" name="nome" id="">
-                <input type="text" name="email" id="">
-                <input type="text" name="telefone" id="">
-                <input type="text" name="assunto" id="">
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
-        <!-- contato -->
-        <!-- Banner rodapé -->
-        <div class="row">
-            <img src="https://via.placeholder.com/1084x348" alt="">
-            <button>Compre o ingresso</button>
-        </div>
-        <!-- Banner rodapé -->
-        <!-- FOOTER -->
-        <div class="row">
-            <img src="logo" alt="">
-            <hr>
-            <img src="facebook" alt="">
-            <img src="instagram" alt="">
-            <p>2020 Futur Talks todos os direitos reservados</p>
-        </div>
-        <!-- FOOTER -->
     </div>
-    <script src="futur-talks/js/script.js"></script>
+    <header class="menu-bg">
+        <div class="menu">
+                <a href="#"><img src="assets/logo branco.png" alt=""></a>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#convidados">Convidados</a></li>
+                    <li><a href="#sobre">Evento</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Header -->
+    <section class="hero">
+        <h1>Vem aí o <span>Futur Talks</span></h1>
+        <h3>Gerando conteúdo de qualidade para empresas e pessoas interessadas em Tecnologia.</h3>
+        <a href="https://www.sympla.com.br/futur-talks---tecnologia-no-mercado-da-musica__774613" target="_blank" class="hero-btn">Adquira pelo Sympla</a>
+      </section>
+    <!-- Sobre o evento -->
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h1 class>Futur Talks</h1>
+            <p>A proposta do Futur Talks é gerar conteúdo de qualidade para empresas e pessoas interessadas em Tecnologia no Mercado da Música.</p>
+
+            <p>Além disso, é sempre importante saber quais são as últimas tecnologias existentes no mercado da música e como a sua empresa se encaixa no uso delas.</p>
+        </div>
+        <div class="sobre-img">
+            <img src="img/zakaria-zayane-z1yfGZZLpKU-unsplash.jpg" alt="">
+        </div>
+    </section>
+    <!-- Palestrantes -->
+    <div class="convidados-header" id="convidados">
+        <h1>Convidados</h1>
+    </div>
+    <section class="convidados">
+        <!-- Convidado 1 -->
+        <div class="convidados-item">
+            <h2>Thiago de Mello e Silva</h2>
+            <p>CSO & Founder na Eshows</p>
+            <img src="img/WhatsApp Image 2020-01-28 at 15.06.31.jpeg" alt="">
+            <p>Segue o Thiago no Linkedin!</p>
+            <div class="social-media">
+                <a href="https://br.linkedin.com/in/thiago-de-mello-e-silva-4a3a9b2a" target="_blank"><li><i class="fab fa-linkedin-in"></i></li></a>
+            </div>
+        </div>
+        <!-- Convidado 2 -->
+        <div class="convidados-item">
+            <h2>Thor Moura</h2>
+            <p>Co-Founder da Sling Musical</p>
+            <img src="img/WhatsApp Image 2020-01-28 at 15.06.23.jpeg" alt="">
+            <p>Segue o Thor no Linkedin</p>
+            <div class="social-media">
+                <a href="https://br.linkedin.com/in/thor-moura" target="_blank"><li><i class="fab fa-linkedin-in"></i></li></a>
+            </div>
+        </div>
+        <!-- Convidado 3 -->
+        <!--
+        <div class="convidados-item">
+            <h2>Jorge Torres</h2>
+            <img src="img/notes-macbook-study-conference-7102.jpg" alt="">
+            <p>Siga ele nas redes sociais!!</p>
+            <div class="social-media">
+                <a href="#"><li><i class="fab fa-linkedin-in"></i></li></a>
+                <a href="#"><li><i class="fab fa-facebook-f"></i></li></a>
+            </div>
+        </div>
+        -->
+        <!-- Convidado 4 -->
+        <!--
+        <div class="convidados-item">
+            <h2>Jorge Torres</h2>
+            <img src="img/notes-macbook-study-conference-7102.jpg" alt="">
+            <p>Siga ele nas redes sociais!!</p>
+            <div class="social-media">
+                <a href="#"><li><i class="fab fa-linkedin-in"></i></li></a>
+                <a href="#"><li><i class="fab fa-facebook-f"></i></li></a>
+            </div>
+        </div>
+        -->
+    </section>
+    <!-- Sobre o evento -->
+    <section class="evento" id="evento">
+        <div class="evento-info">
+            <h1>Sobre o evento</h1>
+            <p class="highlighters">Palestrantes</p class="highlighters">
+            <ul>
+                <li>- Profissionais especializados em Tecnologia na Música;</li>
+            </ul>
+            <p class="highlighters">Como será o evento?</p class="">
+            <p>Será um painel inédito, sobre as novas tecnologias no mercado da música. O que esperar para a próxima década e falaremos de algumas ferramentas que podem ajudar nessa nova era digital. Vamos passar conteúdos de qualidade e dar algumas dicas para que todos possam sair do evento mais informatizados.</p>
+
+            <p>A ideia é mostrar para as pessoas e empresas como a tecnologia vem transformando o mercado da música. Para isso, contaremos com profissionais da área. Além disso, é sempre importante saber quais são as últimas tendências e como a sua empresa pode se encaixar no uso delas.</p>
+        </div>
+        <div class="evento-img">
+            <img src="img/zakaria-zayane-z1yfGZZLpKU-unsplash.jpg" alt="">
+        </div>
+    </section>
+    <!-- Parte da parceria / apoio -->
+    <div class="container-apoio">
+        <div class="apoio-header">
+            <h1>Apoio</h1>
+        </div>
+        <div class="apoio-logo">
+            <a href="https://www.lambda3.com.br/" target="_blank"><img src="assets/lambda3_logo_200x41.png" alt=""></a>
+        </div>
+        <div class="apoio-paragraf">
+            <p>Aproveite nossa edição inédita do Futur Talks - Tecnologia no Mercado da Música com o apoio da <span>LAMBADA3</span> o evento irá acontecer <span>30 de janeiro de 2020 ás 20h30</span>. </p>
+        </div>
+    </div>
+        <div class="mapa" id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.796327223741!2d-46.661382!3d-23.5523094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97cd312ddda4a8f9!2sLambda3!5e0!3m2!1spt-BR!2sbr!4v1580240977250!5m2!1spt-BR!2sbr"  width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
+    <div class="form">
+        <img src="img/contato.png" alt="">
+        <h1 class="contato-header">Contato</h1>
+        <div id="sucess">
+            <h1 class="sucessmsg">Mensagem enviada com sucesso!</h1>
+        </div>
+        <iframe src="" name="formhide" frameborder="0" width="0" height="0"></iframe>
+        <form action="mail.php" method="post" id="contato" target="formhide" onsubmit="formSubmit()">
+            <input type="text" name="name" placeholder="Digite seu nome">
+            <input type="text" name="email" placeholder="Digite seu e-mail">
+            <input type="text" name="phone" placeholder="DDD + Telefone">
+            <textarea name="message" cols="30" rows="5" placeholder="Digite sua mensagem"></textarea>
+            <input type="submit" value="Enviar mensagem">
+        </form>
+    </div>
+    <!-- Rodapé -->
+    <div class="footer">
+        <!--
+        <img src="assets/logo branco.png" alt="">
+        <hr>
+        <p>2020 Futur Talks todos os direitos reservados</p>
+         -->
+         <img src="assets/logo branco.png" alt="">
+         <hr>
+        <p>2020 Futur Talks todos os direitos reservados</p>
+        <ul>
+            <li><a href="https://www.instagram.com/futur.talks/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/futurtalks" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        </ul>
+    </div>
+    <script src="js/script.js"></script>
+    <!-- Pega os ícones de mídas socias que uso nas linhas: 56 e 57, 66 e 67 e na 76 e 77 deste doc -->
+    <script src="https://kit.fontawesome.com/ca123e460d.js" crossorigin="anonymous"></script>
 </body>
 </html>
