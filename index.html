@@ -5,11 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
 </head>
 <body>
     <div id="container">
@@ -128,14 +123,21 @@
         </div>
         <!-- Localização -->
         <!-- contato -->
-        <div class="row bgblack">
+        <div class="row bgblack" id="form">
             <img src="https://via.placeholder.com/370x293" alt="">
             <h1>Contato</h1>
-            <form action="">
-                <input type="text" name="" id="">
-                <input type="text" name="" id="">
-                <input type="text" name="" id="">
-                <input type="text" name="" id="">
+            
+            <!-- Adicionar um parágrafo com uma mensagem de sucesso aqui. Manter a ID da div e do formulário -->
+            <!-- Adicionar ou manter os nomes dos input type-->
+
+            <div id="formhidden" style="display:none">
+              <p>Formulário enviado com sucesso</p>
+            </div>
+            <form action="mailto:vendas@futurtalk.com.br" id="contato" onsubmit="formSubmit()">
+                <input type="text" name="nome" id="">
+                <input type="text" name="email" id="">
+                <input type="text" name="telefone" id="">
+                <input type="text" name="assunto" id="">
                 <input type="submit" value="Enviar">
             </form>
         </div>
@@ -156,5 +158,6 @@
         </div>
         <!-- FOOTER -->
     </div>
+    <script src="futur-talks/js/script.js"></script>
 </body>
 </html>
